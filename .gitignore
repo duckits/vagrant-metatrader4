@@ -1,0 +1,20 @@
+# ignore build harness
+*build-harness
+
+# ignore direnv vars
+.vars
+
+# ignore packer cache
+packer_cache
+
+# ignore vagrant cache
+.vagrant/
+*.img
+*.log
+
+# ignore scratch directory
+scratch
+
+# ignore generated output
+output-*-iso
+*.box
